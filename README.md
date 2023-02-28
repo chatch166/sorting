@@ -16,7 +16,7 @@ Given a dataset, the first step of processing is almost always to sort the data.
 This allows efficient lookups via binary search,
 but it even makes sequential search significantly faster due to an optimization in modern CPUs called "branch prediction".
 (See [the most upvoted stackoverflow question of all time](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array) for details.)
-Technical interviews therefore often require you to explain how the merge and quicksort algorithms work.
+Technical interviews therefore often require you to explain how the merge and quicksort algorithms  work.
 
 > **ASIDE:**
 > Recall that Python uses the [TimSort](https://en.wikipedia.org/wiki/Timsort) algorithm.
